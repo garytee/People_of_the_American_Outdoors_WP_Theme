@@ -1,0 +1,152 @@
+
+// Single Video Page
+
+section.video h1 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.3;
+	@media screen and (min-width: $tablet-width) {
+		font-size: 24px;
+	}
+}
+section.video {
+	padding: 30px 10px;
+	max-width: $tablet-width;
+	margin: auto;
+}
+article.videos {
+	max-width: 900px;
+	margin: auto;
+}
+@media screen and (max-width:$mobile) {
+	.type-videos {
+		iframe {
+			max-height: 250px;
+		}
+	}
+}
+@media screen and (min-width: $tablet-width) {
+
+	section.video {
+		padding: 70px 0;
+	}
+	section.video h1 {
+		line-height: 1.5;
+	}
+}
+.type-videos iframe:after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	border-bottom: $pale-teal 2px solid;
+	padding-bottom: 20px;
+}
+
+article.videos {
+	div.videos-single-video {
+		width: 100%;
+		position: relative;
+		padding-bottom: 25px;
+	}
+	div.videos-single-video:after {
+		content: "";
+		width: 100%;
+		height: 2px;
+		border-top: $pale-teal 2px solid;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+}
+.videos_video {
+	border-bottom: $pale-teal 2px solid;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+
+}
+
+
+// Main Video Hub Page
+
+div.search_page article.videos, article.videos {
+	h2.entry-title {
+		a {
+			color: $charcoal;
+		}
+		font-weight: 500;
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (min-width: $tablet-width) {
+	div.search_page article.videos, article.videos {
+		img {
+			float: left;
+			margin: 0 25px 0 0;
+		}
+		h2.entry-title {
+			clear: inherit;
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+	}
+}
+.videos_archive {
+	max-width: 900px;
+	margin: auto;
+	padding: 20px;
+	padding-bottom: 40px;
+	a:hover {
+		cursor: pointer;
+	}
+	.page-header {
+		display: inline-block;
+		width: auto;
+	}
+	h1 {
+		border-bottom: $pale-teal 2px solid;
+		padding-right: 10px;
+	}
+	article {
+		padding: 1.5em 0;
+		border-bottom: 1px $beige solid;
+		overflow: auto;
+		&:last-of-type {
+			border-bottom: none;
+		}
+	}
+	#postdate {
+		margin: 0 0 10px;
+	}
+	@media screen and (min-width: $tablet-width) {
+		padding-top: 40px;
+	}
+}
+.videos_description p {
+	margin: 0;
+	font-size: 15px;
+}
+.videos_description a {
+	color: $charcoal;
+}
+
+.more_posts {
+	margin: 40px 0;
+	h4 {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	ul {
+		padding-left: 0;
+		margin-left: 0;
+	}
+	li {
+		list-style-type: none;
+		margin-bottom: 5px;
+	}
+	a {
+		font-weight: 600;
+		font-family: $font2;
+	}
+}

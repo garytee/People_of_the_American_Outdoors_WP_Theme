@@ -1,0 +1,233 @@
+{
+    "key": "group_5cc91c5cd291d",
+    "title": "Two Column Page Fields",
+    "fields": [
+        {
+            "key": "field_5cc91c7294f98",
+            "label": "Left Column",
+            "name": "left_column",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5cc91c8340d71": {
+                    "key": "layout_5cc91c8340d71",
+                    "name": "flexible_content",
+                    "label": "Flexible Content",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5cc91c5cdf793",
+                            "label": "Flexible Content",
+                            "name": "flexible_content",
+                            "type": "flexible_content",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "interior_fields",
+                                "id": ""
+                            },
+                            "layouts": {
+                                "58024491c1254": {
+                                    "key": "58024491c1254",
+                                    "name": "columns",
+                                    "label": "Columns",
+                                    "display": "block",
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_5cc91c5ce17dd",
+                                            "label": "Columns",
+                                            "name": "columns",
+                                            "type": "repeater",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "acf-equal-col",
+                                                "id": ""
+                                            },
+                                            "collapsed": "",
+                                            "min": 0,
+                                            "max": 4,
+                                            "layout": "block",
+                                            "button_label": "Add Column",
+                                            "sub_fields": [
+                                                {
+                                                    "key": "field_5cc91c5ce3576",
+                                                    "label": "Column",
+                                                    "name": "column",
+                                                    "type": "wysiwyg",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "display_label": 1,
+                                                    "default_value": "",
+                                                    "tabs": "all",
+                                                    "toolbar": "full",
+                                                    "media_upload": 1,
+                                                    "delay": 0
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "min": "",
+                                    "max": ""
+                                }
+                            },
+                            "button_label": "Add Row",
+                            "min": "",
+                            "max": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        },
+        {
+            "key": "field_5cc91ca094f9a",
+            "label": "Right Column",
+            "name": "right_column",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5cc91c8340d71": {
+                    "key": "layout_5cc91c8340d71",
+                    "name": "flexible_content",
+                    "label": "Flexible Content",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5cc91ca094f9b",
+                            "label": "Flexible Content",
+                            "name": "flexible_content",
+                            "type": "flexible_content",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "interior_fields",
+                                "id": ""
+                            },
+                            "layouts": {
+                                "58024491c1254": {
+                                    "key": "58024491c1254",
+                                    "name": "columns",
+                                    "label": "Columns",
+                                    "display": "block",
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_5cc91ca094f9c",
+                                            "label": "Columns",
+                                            "name": "columns",
+                                            "type": "repeater",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "acf-equal-col",
+                                                "id": ""
+                                            },
+                                            "collapsed": "",
+                                            "min": 0,
+                                            "max": 4,
+                                            "layout": "block",
+                                            "button_label": "Add Column",
+                                            "sub_fields": [
+                                                {
+                                                    "key": "field_5cc91ca094f9d",
+                                                    "label": "Column",
+                                                    "name": "column",
+                                                    "type": "wysiwyg",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "default_value": "",
+                                                    "tabs": "all",
+                                                    "toolbar": "full",
+                                                    "media_upload": 1,
+                                                    "delay": 0
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "min": "",
+                                    "max": ""
+                                }
+                            },
+                            "button_label": "Add Row",
+                            "min": "",
+                            "max": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/template-twocolumn.php"
+            }
+        ]
+    ],
+    "menu_order": 19,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1558908237
+}

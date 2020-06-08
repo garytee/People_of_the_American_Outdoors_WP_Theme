@@ -1,0 +1,170 @@
+@charset 'UTF-8';
+
+@font-face
+{
+    font-family: 'theatre-company';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/theatre-company.eot');
+    src: url('../fonts/theatre-company.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/theatre-company.woff') format('woff'),
+    url('../fonts/theatre-company.ttf') format('truetype'),
+    url('../fonts/theatre-company.svg#theatre-company') format('svg');
+}
+
+[data-icon]:before
+{
+    font-family: 'theatre-company' !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    line-height: 1;
+
+    content: attr(data-icon);
+    text-transform: none !important;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^='dashicons-theatre-']:before,
+[class*=' dashicons-theatre-']:before
+{
+    font-family: 'theatre-company' !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    line-height: 1;
+
+    text-transform: none !important;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dashicons-theatre-performance:before
+{
+    content: 'a';
+}
+
+.dashicons-theatre-physician:before
+{
+    content: 'b';
+}
+
+.dashicons-theatre-pencil-square-o:before
+{
+    content: 'c';
+}
+
+.dashicons-theatre-checkbox:before
+{
+    content: 'd';
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu,
+.no-js li.wp-has-current-submenu:hover .wp-submenu
+{
+    background: #034a52;
+}
+
+#adminmenu
+{
+    background: #034a52;
+}
+
+#adminmenuback
+{
+    background: #034a52;
+}
+
+#adminmenuwrap
+{
+    background: #034a52;
+}
+
+#adminmenuwrap li
+{
+    background: #034a52;
+}
+
+#adminmenu li:hover
+{
+    background: #034a52 !important;
+}
+
+#adminmenuwrap li a
+{
+    color: #fff;
+    /*text-shadow: 0 0 3px rgba(0,0,0,.8);*/
+}
+
+#wpadminbar
+{
+    background: #034a52;
+}
+
+
+
+
+#adminmenu li a:hover
+{
+    background: #fff !important;
+}
+
+#adminmenu li a:hover
+{
+    color: #00a0d2 !important;
+}
+
+
+
+
+#adminmenu .wp-submenu,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu,
+.folded #adminmenu a.wp-has-current-submenu:focus + .wp-submenu
+{
+    z-index: 9999;
+
+    padding: 7px 0 8px;
+
+    background-color: #034a52;
+    -webkit-box-shadow: 0 3px 5px rgba(0,0,0,.2);
+            box-shadow: 0 3px 5px rgba(0,0,0,.2);
+}
+
+
+
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus
+{
+    position: relative;
+
+    color: #00b9eb;
+    background-color: #034a52;
+}
+
+
+#adminmenu div.wp-menu-image:before
+{
+    color: #a0a5aa;
+    color: #f4f4f4;
+}
+
+
+
+
+
+
+
+#rg_forms_dashboard
+{
+    display: none;
+}
