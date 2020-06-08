@@ -1,1 +1,1 @@
-# Wordpress Theme for https://www.peopleoftheamericanoutdoors.com/
+# Wordpress Theme for www.peopleoftheamericanoutdoors.com
